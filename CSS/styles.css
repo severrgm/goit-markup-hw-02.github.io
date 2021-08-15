@@ -16,16 +16,16 @@ body {
 
 /*-----HEADER-----*/
 .header-logo {
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #2196F3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 .header-accent {
-    color: #000000;
+  color: #000000;
 }
 .header-link {
   font-weight: 500;
@@ -75,8 +75,28 @@ h1 {
 .footer {
   background-color: #2f303a;
 }
-.address {
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: var(--secondary-title-color);
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-accent {
+  color: #ffffff;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail,
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
