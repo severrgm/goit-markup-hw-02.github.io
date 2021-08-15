@@ -5,7 +5,7 @@
   --accent-color: #2196f3;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .list {
   list-style: none;
@@ -71,6 +71,59 @@ h1 {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+/*-----BENEFITS-----*/
+.benefits-item-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+.benefits-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/*-----WORK-----*/
+.work-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+/*-----COMMAND-----*/
+.command-section {
+  background-color: #f5f4fa;
+}
+.command-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.command-item-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.command-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
 /*----FOOTER------*/
 .footer {
   background-color: #2f303a;
@@ -99,4 +152,24 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+/*-----PORTFOLIO-----*/
+.btn-item:hover,
+.btn-item:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.works-item-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+.works-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
